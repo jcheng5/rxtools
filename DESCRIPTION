@@ -1,0 +1,16 @@
+Package: rxtools
+Type: Package
+Title: Tools and helpers for reactive programming with Shiny
+Version: 0.1.0
+Authors@R: c(
+    person("Joe", "Cheng", role = c("aut", "cre"), email = "joe@rstudio.com"),
+    person(family = "RStudio", role = "cph")
+    )
+Description: Enhances Shiny with additional utilities for expressing
+    computations reactively.
+License: GPL-3
+Imports: shiny, R6
+Enhances: shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
